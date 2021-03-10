@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background: #0B1D26;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+  font-size: 18px;
+  color: #0B1D26;
+  margin-left: 10px;
+  font-weight: 700;
+}
+
+.hero {
+  background: url(../images/bg.svg);
+  background-size: cover;
+  background-position: center;
+  height: 1300px;
+}
+.hero-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px;
+}
+
+.hero-grid img {
+  cursor: pointer;
+}
+
+.hero-grid h1 {
+  color: #0B1D26;
+  margin: 0 290px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.hero-grid ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; 
+  text-align: end;
+  cursor: pointer;
+}
+
+.hero-grid ul li {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.bg-gradient {
+  margin-top: 120px;
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+  height: 700px;
+}
+
+section span {
+  position: absolute;
+  font-size: 170px;
+  font-weight: 700;
+  color: #FFFFFF;
+  opacity: 0.1;
+}
+
+.one span {
+  top: 1000px;
+}
+
+.bg-gradient section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.one {
+  padding: 270px 100px 50px 100px;
+}
+
+.sector-text {
+  color: white;
+  padding: 0 50px;
+}
+
+.sector-text h1 {
+  font-weight: 600;
+  font-size: 40px;
+  margin: 0;
+}
+
+.sector-paragraph {
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.sector-text small {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #FDD130;
+}
+
+.sector-text small img {
+  margin-left: 10px;
+}
+
+.two {
+  margin: 0 100px;
+}
+.two div div {
+  padding-left: 100px;
+}
+
+.two span {
+  right: 550px;
+  top: 1740px;
+}
+
+.three {
+  margin: 0 100px;
+}
+
+.three span {
+  bottom: -2100px;
+}
+
+footer {
+  padding: 100px 100px;
+  justify-content: space-between;
+  display: flex;
+}
+
+footer p {
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+
+.footer-grid {
+  display: flex;
+  color: white;
+}
+
+.footer-grid h4 {
+  margin-top: 0;
+  color: #FDD130;
+}
+
+.footer-grid div {
+  margin-left: 50px;
+}
+
+.footer-grid li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+}
